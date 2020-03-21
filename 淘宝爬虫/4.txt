@@ -1,0 +1,42 @@
+2019-3-19到2019-3-23  5	徐州工程（实验室安装）
+2019-05-12到2019-05-16  5   4 常州大学 单片机认识
+2019-05-31到2019-07-04  35  23 甘肃农业大学（STC单片机），陇东学院（语言）包头师范（综合实训STM32） 
+2019-08-19到2019-08-25  7   7 山西农业大学（实验室安装）
+2019-12-09到2019-12-14  6   6 宿州学院（实验室安装）
+
+合计：53天
+工作日合计 40
+||=== Build: Debug in MP3 (compiler: GNU GCC Compiler) ===|
+||error: failure to convert GBK to UTF-8|
+||=== Build failed: 1 error(s), 0 warning(s) (0 minute(s), 0 second(s)) ===|
+
+
+||=== Build: Debug in MP3 (compiler: GNU GCC Compiler) ===|
+E:\桌面\MP3\MP3\main.c|1|fatal error: stdafx.h: No such file or directory|
+||=== Build failed: 1 error(s), 0 warning(s) (0 minute(s), 0 second(s)) ===|
+
+
+||=== Build: Debug in MP3 (compiler: GNU GCC Compiler) ===|
+E:\桌面\MP3\MP3\main.c|5|warning: ignoring #pragma comment  [-Wunknown-pragmas]|
+E:\桌面\MP3\MP3\main.c||In function 'main':|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\302' in program|
+E:\桌面\MP3\MP3\main.c|10|error: stray '\240' in program|
+E:\桌面\MP3\MP3\main.c|12|warning: implicit declaration of function '_getch' [-Wimplicit-function-declaration]|
+||=== Build failed: 16 error(s), 2 warning(s) (0 minute(s), 0 second(s)) ===|
+
+
+mciSendString("play bkmusic repeat", NULL, 0, NULL); 
